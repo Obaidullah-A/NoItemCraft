@@ -1,0 +1,14 @@
+name: NoItemCraft
+version: '${version}'
+main: win.h3lp.noitemcraft.NoItemCraft
+api-version: '1.16'
+author: Obaid
+commands:
+  noitemcraft:
+    description: Manages item crafting permissions
+    usage: /noitemcraft <block|unblock> <item>
+    permission: noitemcraft.manage
+permissions:
+  noitemcraft.manage:
+    description: Allows the player to manage item crafting permissions
+    default: op

@@ -1,0 +1,10 @@
+prohibited-items:
+  - HOPPER
+  - DIAMOND_SWORD
+
+messages:
+  item_blocked: "You cannot craft this item. :)"
+  item_already_blocked: "Item {item} is already blocked."
+  item_block_success: "Item {item} has been blocked."
+  invalid_item: "Invalid item: {item}."
+  command_usage: "Usage: /noitemcraft <item>"
