@@ -11,7 +11,7 @@ NoItemCraft is a Minecraft server plugin that allows server administrators to bl
 
 ## Installation
 
-1. Download the NoItemCraft plugin jar file.
+1. Download the NoItemCraft plugin jar file from the releases.
 2. Place the jar file in your server's `plugins` directory.
 3. Start or restart your server to load the plugin.
 
