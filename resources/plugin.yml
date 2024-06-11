@@ -1,4 +1,14 @@
 name: NoItemCraft
 version: '${version}'
-main: win.h3lp.noitemcrafts.NoItemCraft
+main: win.h3lp.noitemcraft.NoItemCraft
 api-version: '1.16'
+author: Obaid
+commands:
+  noitemcraft:
+    description: Blocks an item from being crafted
+    usage: /noitemcraft <item>
+    permission: noitemcraft.noitemcraft
+permissions:
+  noitemcraft.noitemcraft:
+    description: Allows the player to block an item from being crafted
+    default: op
