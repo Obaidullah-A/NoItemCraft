@@ -73,3 +73,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 If you have any questions or need support, please open an issue on the [GitHub repository](https://github.com/Obaidullah-A/NoItemCraft).
+
+## Support
+
+If you like this plugin and want to support its development, consider buying me a coffee:
+
+[Buy Me a Coffee](https://www.buymeacoffee.com/obaidullah)
