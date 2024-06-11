@@ -1,0 +1,4 @@
+name: NoItemCraft
+version: '${version}'
+main: win.h3lp.noitemcrafts.NoItemCraft
+api-version: '1.16'
