@@ -8,14 +8,17 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.CraftItemEvent;
 
+import java.util.Map;
 import java.util.Set;
 
 public class CraftListener implements Listener {
 
     private final Set<Material> prohibitedItems;
+    private final Map<String, String> messages;
 
-    public CraftListener(Set<Material> prohibitedItems) {
+    public CraftListener(Set<Material> prohibitedItems, Map<String, String> messages) {
         this.prohibitedItems = prohibitedItems;
+        this.messages = messages;
     }
 
     @EventHandler(priority = EventPriority.HIGHEST)
@@ -24,7 +27,7 @@ public class CraftListener implements Listener {
             event.setCancelled(true);
             if (event.getWhoClicked() instanceof Player) {
                 Player player = (Player) event.getWhoClicked();
-                player.sendMessage(ChatColor.RED + "You cannot craft this item. :)");
+                player.sendMessage(ChatColor.RED + messages.get("item_blocked"));
             }
         }
     }
